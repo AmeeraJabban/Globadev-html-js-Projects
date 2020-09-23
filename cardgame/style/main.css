@@ -1,0 +1,116 @@
+.Deck{
+	display: table;
+	height: 550px;
+	width: 100%;
+	background-image: url(/Users/SAMSUNG/Desktop/cardgame/images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border:10px solid black;
+	border-radius:10px;
+	text-align: center;
+}
+.message{
+	height: 30px;
+}
+.cards{
+	float: left;
+	width: 30%;
+}
+.Resetbtn{
+	margin-top: 20px;
+	margin-left: -120px;
+	height: 30px;
+	width: 90px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.PlayerOneCards,
+.PlayerTwoCards,
+.groundCards
+{
+	display: inline-block;
+	border-radius: 5px;
+	text-align: left;
+	color:black;
+	font-size:15pt;
+	font-family: sans-serif;
+	margin-top: 200px;
+	height: 100px;
+    width: 90px;
+   
+
+}
+.PlayerOneCards,
+.PlayerTwoCards{
+	font-size:0pt;
+	background-position: center;
+    background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(/Users/SAMSUNG/Desktop/cardgame/images/cardbg.jpg);
+
+}
+.diamonds{
+	background-color:white;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size:15pt;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: left;
+	color:black;
+	font-family: sans-serif;
+	margin-top: 200px;
+	height: 130px;
+    width: 100px;
+	background-image: url('/Users/SAMSUNG/Desktop/cardgame/images/diamonds.jpg');	
+}
+.hearts{
+	background-color:white;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size:15pt;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: left;
+	color:black;
+	font-family: sans-serif;
+	margin-top: 200px;
+	height: 130px;
+    width: 100px;
+	background-image: url('/Users/SAMSUNG/Desktop/cardgame/images/heart.png');	
+}
+.clubs{
+	background-color:white;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size:15pt;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: left;
+	color:black;
+	font-family: sans-serif;
+	margin-top: 200px;
+	height: 130px;
+    width: 100px;
+	background-image: url('/Users/SAMSUNG/Desktop/cardgame/images/Card_club.png');
+}
+.spades{
+	background-color:white;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size:15pt;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: left;
+	color:black;
+	font-family: sans-serif;
+	margin-top: 200px;
+	height: 130px;
+    width: 100px;
+	background-image: url('/Users/SAMSUNG/Desktop/cardgame/images/spades.png');	
+}      

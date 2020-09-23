@@ -1,0 +1,59 @@
+.container{
+    border: 2px solid black;
+    display: block;
+    position: relative;
+}
+.container::after{
+    content: "";
+    background:url('/Users/SAMSUNG/Desktop/calculator/img/background.jpg');
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.result{
+    height: 70px;
+    margin: 20px;
+    background-color:white;
+    font-size: 30px;
+    padding-top:8px;
+    border: 3px solid grey;
+    text-align: center;
+}
+.container main{
+    margin: auto;
+    background-color:rgb(194, 199, 199); 
+    border: 3px solid rgb(126, 127, 128);
+    height:470px ;
+    width: 450px;
+    margin-bottom: 50px;
+}
+.Num,
+.Oper,
+.Equal,
+.reset{
+    height: 80px;
+    width: 90px;
+    margin: 1px;
+    font-size: 40px;
+    border-style: outset;
+    border-radius: 8px;
+}
+.Num:hover,
+.Oper:hover,
+.Equal:hover,
+.reset:hover{
+    background-color: slategrey;
+}
+.Calcutator{
+    margin-left: 35px;
+}

@@ -1,0 +1,23 @@
+.container{
+    background-color: darksalmon;
+    border: 2px solid black;
+    margin: auto;
+    height: 500px;
+    width: 1000px;
+}
+.Subcontainer{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    text-decoration: unset;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#GuessedNo{
+    height: 20px;
+    width: 100px;
+}
+.btn{
+    margin-top: 30px;
+}

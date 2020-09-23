@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Random Game </title>
+<meta charset="UTF-8">
+<meta name="description" content=" js task1" >
+<script src="javascript/main.js"></script>
+<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title"> Random Game </h1>
+        <main class="Subcontainer">
+            <input type="number" id="GuessedNo" name="GuessedNo" min="0" max="100"> <br>
+            <button onclick="onCheckValue_Click()" id="GuessBtn" class="btn"> Guess</button> <br>
+            <button onclick="onRestartGame_Click()" id="ResetBtn" class="btn"> Reset</button>
+            <p id="messageEl"></p>         
+        </main>
+    </div>
+</body>
+</html>
