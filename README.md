@@ -1,4 +1,3 @@
-# Globadev-html-js-Projects
 # Welcome !
 
 This **repository** includes a set of projects that I have implemented during my training period with  **GlobaDev**:
@@ -27,3 +26,22 @@ when user click equal button it should supply the engine class with first number
 The game has two players, the cards are divided equals between them as two piles of cards , all cards are covered.  
 when first player clicks on his pile. the last card is drawn and thrown on the ground (the center). then second player click on his pile the last card is drawn and thrown on ground above first player card.  
 when any player throw a card and its number is similar to the last card on ground he takes all cards on ground and added to his pile. the first player finish his cards wins.
+
+>### Accounting Journal Screen
+
+We need to create Accounting journal screen,  
+create project with following folder structure :  
+- Index.html  
+- ---- app\main.js  
+- ---- styles\style.css  
+use Bootstrap and JQuery and JQuery controls if needed.
+
+the first screen has master data and details data, as in the picture,  
+when clicking on (Add Journal) , it will show modal window, as in the second screen. when click ok it will add record to the grid.  
+when click on Edit next to each record. show the modal filled with data.  
+when click on delete next to each record. remove record from grid
+
+when add or edit or delete change summaries under the grid, balance is credit - dept
+
+when click save under the grid. save the form data (master/details) to JavaScript object then show message or label saying (Voucher saved) . when click delete show confirmation message (are you sure ) then clean every thing (reset the form) and show message or label (voucher deleted) . when click post. save the data then disable all buttons. and show the word (Posted) on top right of screen.
+
